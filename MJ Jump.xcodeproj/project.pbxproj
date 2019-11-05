@@ -16,6 +16,8 @@
 		9CE2D6831CF20162005A012F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE2D6811CF20162005A012F /* LaunchScreen.storyboard */; };
 		9CE2D68E1CF20162005A012F /* FlappyGame1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2D68D1CF20162005A012F /* FlappyGame1Tests.swift */; };
 		9CE2D6991CF20162005A012F /* FlappyGame1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2D6981CF20162005A012F /* FlappyGame1UITests.swift */; };
+		9CE2D6A71CF28C67005A012F /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2D6A61CF28C67005A012F /* RandomFunction.swift */; };
+		9CE2D6A91CFE76DF005A012F /* mexcellent.3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CE2D6A81CFE76DF005A012F /* mexcellent.3d.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9CE2D6711CF20162005A012F /* FlappyGame1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyGame1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE2D6711CF20162005A012F /* MJ Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MJ Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE2D6741CF20162005A012F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE2D6761CF20162005A012F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9CE2D6781CF20162005A012F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -45,12 +47,14 @@
 		9CE2D67F1CF20162005A012F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE2D6821CF20162005A012F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE2D6841CF20162005A012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CE2D6891CF20162005A012F /* FlappyGame1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGame1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE2D6891CF20162005A012F /* MJ Jump.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MJ Jump.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE2D68D1CF20162005A012F /* FlappyGame1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyGame1Tests.swift; sourceTree = "<group>"; };
 		9CE2D68F1CF20162005A012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CE2D6941CF20162005A012F /* FlappyGame1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyGame1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE2D6941CF20162005A012F /* MJ Jump.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MJ Jump.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE2D6981CF20162005A012F /* FlappyGame1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyGame1UITests.swift; sourceTree = "<group>"; };
 		9CE2D69A1CF20162005A012F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE2D6A61CF28C67005A012F /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		9CE2D6A81CFE76DF005A012F /* mexcellent.3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mexcellent.3d.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +95,9 @@
 		9CE2D6721CF20162005A012F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CE2D6711CF20162005A012F /* FlappyGame1.app */,
-				9CE2D6891CF20162005A012F /* FlappyGame1Tests.xctest */,
-				9CE2D6941CF20162005A012F /* FlappyGame1UITests.xctest */,
+				9CE2D6711CF20162005A012F /* MJ Jump.app */,
+				9CE2D6891CF20162005A012F /* MJ Jump.xctest */,
+				9CE2D6941CF20162005A012F /* MJ Jump.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +105,11 @@
 		9CE2D6731CF20162005A012F /* FlappyGame1 */ = {
 			isa = PBXGroup;
 			children = (
+				9CE2D6A81CFE76DF005A012F /* mexcellent.3d.ttf */,
 				9CE2D6741CF20162005A012F /* AppDelegate.swift */,
 				9CE2D6761CF20162005A012F /* GameScene.sks */,
 				9CE2D6781CF20162005A012F /* GameScene.swift */,
+				9CE2D6A61CF28C67005A012F /* RandomFunction.swift */,
 				9CE2D67A1CF20162005A012F /* GameViewController.swift */,
 				9CE2D67C1CF20162005A012F /* Main.storyboard */,
 				9CE2D67F1CF20162005A012F /* Assets.xcassets */,
@@ -134,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CE2D6701CF20162005A012F /* FlappyGame1 */ = {
+		9CE2D6701CF20162005A012F /* MJ Jump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE2D69D1CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1" */;
+			buildConfigurationList = 9CE2D69D1CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ Jump" */;
 			buildPhases = (
 				9CE2D66D1CF20162005A012F /* Sources */,
 				9CE2D66E1CF20162005A012F /* Frameworks */,
@@ -146,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = FlappyGame1;
+			name = "MJ Jump";
 			productName = FlappyGame1;
-			productReference = 9CE2D6711CF20162005A012F /* FlappyGame1.app */;
+			productReference = 9CE2D6711CF20162005A012F /* MJ Jump.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9CE2D6881CF20162005A012F /* FlappyGame1Tests */ = {
+		9CE2D6881CF20162005A012F /* MJ JumpTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE2D6A01CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1Tests" */;
+			buildConfigurationList = 9CE2D6A01CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ JumpTests" */;
 			buildPhases = (
 				9CE2D6851CF20162005A012F /* Sources */,
 				9CE2D6861CF20162005A012F /* Frameworks */,
@@ -164,14 +170,14 @@
 			dependencies = (
 				9CE2D68B1CF20162005A012F /* PBXTargetDependency */,
 			);
-			name = FlappyGame1Tests;
+			name = "MJ JumpTests";
 			productName = FlappyGame1Tests;
-			productReference = 9CE2D6891CF20162005A012F /* FlappyGame1Tests.xctest */;
+			productReference = 9CE2D6891CF20162005A012F /* MJ Jump.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CE2D6931CF20162005A012F /* FlappyGame1UITests */ = {
+		9CE2D6931CF20162005A012F /* MJ JumpUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CE2D6A31CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1UITests" */;
+			buildConfigurationList = 9CE2D6A31CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ JumpUITests" */;
 			buildPhases = (
 				9CE2D6901CF20162005A012F /* Sources */,
 				9CE2D6911CF20162005A012F /* Frameworks */,
@@ -182,9 +188,9 @@
 			dependencies = (
 				9CE2D6961CF20162005A012F /* PBXTargetDependency */,
 			);
-			name = FlappyGame1UITests;
+			name = "MJ JumpUITests";
 			productName = FlappyGame1UITests;
-			productReference = 9CE2D6941CF20162005A012F /* FlappyGame1UITests.xctest */;
+			productReference = 9CE2D6941CF20162005A012F /* MJ Jump.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -194,11 +200,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Zach Litzinger";
 				TargetAttributes = {
 					9CE2D6701CF20162005A012F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G9TP8NZ58;
 					};
 					9CE2D6881CF20162005A012F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -210,9 +217,9 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CE2D66C1CF20162005A012F /* Build configuration list for PBXProject "FlappyGame1" */;
+			buildConfigurationList = 9CE2D66C1CF20162005A012F /* Build configuration list for PBXProject "MJ Jump" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -223,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CE2D6701CF20162005A012F /* FlappyGame1 */,
-				9CE2D6881CF20162005A012F /* FlappyGame1Tests */,
-				9CE2D6931CF20162005A012F /* FlappyGame1UITests */,
+				9CE2D6701CF20162005A012F /* MJ Jump */,
+				9CE2D6881CF20162005A012F /* MJ JumpTests */,
+				9CE2D6931CF20162005A012F /* MJ JumpUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,6 +246,7 @@
 				9CE2D6831CF20162005A012F /* LaunchScreen.storyboard in Resources */,
 				9CE2D6801CF20162005A012F /* Assets.xcassets in Resources */,
 				9CE2D67E1CF20162005A012F /* Main.storyboard in Resources */,
+				9CE2D6A91CFE76DF005A012F /* mexcellent.3d.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +273,7 @@
 			files = (
 				9CE2D6791CF20162005A012F /* GameScene.swift in Sources */,
 				9CE2D67B1CF20162005A012F /* GameViewController.swift in Sources */,
+				9CE2D6A71CF28C67005A012F /* RandomFunction.swift in Sources */,
 				9CE2D6751CF20162005A012F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +299,12 @@
 /* Begin PBXTargetDependency section */
 		9CE2D68B1CF20162005A012F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CE2D6701CF20162005A012F /* FlappyGame1 */;
+			target = 9CE2D6701CF20162005A012F /* MJ Jump */;
 			targetProxy = 9CE2D68A1CF20162005A012F /* PBXContainerItemProxy */;
 		};
 		9CE2D6961CF20162005A012F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9CE2D6701CF20162005A012F /* FlappyGame1 */;
+			target = 9CE2D6701CF20162005A012F /* MJ Jump */;
 			targetProxy = 9CE2D6951CF20162005A012F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -324,18 +333,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -370,18 +390,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,6 +431,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlappyGame1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MJ Jump";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -420,10 +456,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlappyGame1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MJ Jump";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -435,8 +475,8 @@
 				INFOPLIST_FILE = FlappyGame1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyGame1.app/FlappyGame1";
+				PRODUCT_NAME = "MJ Jump";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJ Jump.app/MJ Jump";
 			};
 			name = Debug;
 		};
@@ -447,8 +487,8 @@
 				INFOPLIST_FILE = FlappyGame1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyGame1.app/FlappyGame1";
+				PRODUCT_NAME = "MJ Jump";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJ Jump.app/MJ Jump";
 			};
 			name = Release;
 		};
@@ -459,7 +499,7 @@
 				INFOPLIST_FILE = FlappyGame1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MJ Jump";
 				TEST_TARGET_NAME = FlappyGame1;
 			};
 			name = Debug;
@@ -470,7 +510,7 @@
 				INFOPLIST_FILE = FlappyGame1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zachlitz.FlappyGame1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MJ Jump";
 				TEST_TARGET_NAME = FlappyGame1;
 			};
 			name = Release;
@@ -478,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CE2D66C1CF20162005A012F /* Build configuration list for PBXProject "FlappyGame1" */ = {
+		9CE2D66C1CF20162005A012F /* Build configuration list for PBXProject "MJ Jump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2D69B1CF20162005A012F /* Debug */,
@@ -487,29 +527,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CE2D69D1CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1" */ = {
+		9CE2D69D1CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ Jump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2D69E1CF20162005A012F /* Debug */,
 				9CE2D69F1CF20162005A012F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9CE2D6A01CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1Tests" */ = {
+		9CE2D6A01CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ JumpTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2D6A11CF20162005A012F /* Debug */,
 				9CE2D6A21CF20162005A012F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9CE2D6A31CF20162005A012F /* Build configuration list for PBXNativeTarget "FlappyGame1UITests" */ = {
+		9CE2D6A31CF20162005A012F /* Build configuration list for PBXNativeTarget "MJ JumpUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CE2D6A41CF20162005A012F /* Debug */,
 				9CE2D6A51CF20162005A012F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
